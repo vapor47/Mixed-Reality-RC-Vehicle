@@ -11,14 +11,17 @@ public class AxleInfo
     public bool steering;
 }
 
-public class CustomCarController : MonoBehaviour {
+public class CarController : MonoBehaviour {
+
     public List<AxleInfo> axleInfos;
-    public float maxMotorTorque;
+    public float maxSpeed;
     public float maxSteeringAngle;
     public int maxJumps;
     public int jumpForce;
     public int boostForce;
     private int jumpsLeft;
+
+    Rigidbody rb;
 
     // finds the corresponding visual wheel
     // correctly applies the transform
@@ -39,13 +42,16 @@ public class CustomCarController : MonoBehaviour {
         visualWheel.transform.rotation = rotation;
     }
 
-    public void Update()
+    public void Start()
     {
-        
+        rb = this.GetComponent<Rigidbody>();
     }
 
     public void FixedUpdate()
     {
+        float speed = maxSpeed * (Input.GetAxis("Accelerate") - Input.GetAxis("Decelerate"));
+        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+
         if (Input.GetButtonDown("Jump"))
         {
             // if not upside down, jump
@@ -53,9 +59,10 @@ public class CustomCarController : MonoBehaviour {
             Jump();
         }
 
-        // Car is grounded(all four wheels colliding with something)
+        // Car is grounded (all four wheels colliding with something)
         if (isGrounded())
         {
+
             jumpsLeft = maxJumps;
             if (Input.GetButtonDown("Jump"))
             {
@@ -103,9 +110,11 @@ public class CustomCarController : MonoBehaviour {
          *      if (
         */
 
-        float motor = maxMotorTorque * (Input.GetAxis("Accelerate") - Input.GetAxis("Decelerate"));
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
-        
+
+        rb.velocity += transform.forward * speed *Time.fixedDeltaTime;
+
+        Yaw();
+        /*
         foreach (AxleInfo axleInfo in axleInfos)
         {
             if (axleInfo.steering)
@@ -113,19 +122,21 @@ public class CustomCarController : MonoBehaviour {
                 axleInfo.leftWheel.steerAngle = steering;
                 axleInfo.rightWheel.steerAngle = steering;
             }
+
             if (axleInfo.motor)
             {
                 axleInfo.leftWheel.motorTorque = motor;
                 axleInfo.rightWheel.motorTorque = motor;
             }
+
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
+        */
     }
 
     private void Jump()
     {
-        //add relative force
         //forcemode.impulse
         if (jumpsLeft > 0)
         {
@@ -135,8 +146,8 @@ public class CustomCarController : MonoBehaviour {
         Debug.Log(jumpsLeft);
     }
 
-    // Resets car position if it is unable to get back to a drivable position
-    private void Reset()
+    // Resets car position by flipping over if it is unable to get back to a drivable position
+    private void FlipOver()
     {
         GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         GetComponent<Rigidbody>().MoveRotation(new Quaternion(0, 0, 0, 0));
@@ -144,7 +155,7 @@ public class CustomCarController : MonoBehaviour {
 
     private void Boost()
     {
-        GetComponent<Rigidbody>().AddForce(Vector3.forward * boostForce, ForceMode.Force);
+        GetComponent<Rigidbody>().AddForce(transform.forward * boostForce, ForceMode.Force);
     }
 
     private void Roll()
