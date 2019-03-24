@@ -20,11 +20,6 @@ public class CarCommands : MonoBehaviour
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
             rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
         }
-
-        else if (this.GetComponent<Rigidbody>().useGravity == false)
-        {
-            EnableGravity();
-        }
     }
 
     void EnableGravity()
@@ -37,11 +32,10 @@ public class CarCommands : MonoBehaviour
         this.GetComponent<Rigidbody>().useGravity = false;
     }
 
-    void Reset()
+    void OnReset()
     {
         this.transform.localPosition = originalPosition;
         this.transform.localRotation = originalRotation;
-        this.GetComponent<GameObject>().GetComponentInChildren<WheelCollider>().motorTorque = 0;
         this.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 }

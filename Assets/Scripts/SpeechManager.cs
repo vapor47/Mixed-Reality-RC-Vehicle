@@ -32,7 +32,7 @@ public class SpeechManager : MonoBehaviour
         keywords.Add("Reset car", () =>
         {
             var focusObject = GameObject.Find("Car");
-            focusObject.SendMessage("Reset", SendMessageOptions.DontRequireReceiver);
+            focusObject.SendMessage("OnReset", SendMessageOptions.DontRequireReceiver);
         });
 
         /*

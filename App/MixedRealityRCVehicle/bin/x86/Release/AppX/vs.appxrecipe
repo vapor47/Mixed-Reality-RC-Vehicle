@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7333057903115BBB010B6CC70D1606B2CEFB79F8757628CE46FBFDEA3DE854E9</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>BF70D6723E3FECEA67D06042BD5F0DEA211C99F49950BFAE89F67C15EC8A28BA</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>MixedRealityRCVehicle_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>MixedRealityRCVehicle_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>MixedRealityRCVehicle</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-11T07:36:29.851</Modified>
+      <Modified>2019-03-19T03:53:51.179</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\bin\x86\Release\MixedRealityRCVehicle.exe">
       <PackagePath>entrypoint\MixedRealityRCVehicle.exe</PackagePath>
-      <Modified>2019-03-11T07:35:57.886</Modified>
+      <Modified>2019-03-19T03:53:11.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2019-03-11T07:35:03.632</Modified>
+      <Modified>2019-03-19T03:44:25.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -559,15 +559,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2019-03-11T07:33:08.683</Modified>
+      <Modified>2019-03-19T03:42:25.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2019-03-11T07:32:54.266</Modified>
+      <Modified>2019-03-19T03:42:09.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2019-03-11T07:32:49.835</Modified>
+      <Modified>2019-03-19T03:42:04.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -575,35 +575,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2019-03-11T07:33:08.669</Modified>
+      <Modified>2019-03-19T03:42:25.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2019-03-11T07:32:54.543</Modified>
+      <Modified>2019-03-19T03:42:09.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2019-03-11T07:33:01.314</Modified>
+      <Modified>2019-03-19T03:42:17.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2019-03-11T07:33:03.965</Modified>
+      <Modified>2019-03-19T03:42:19.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2019-03-11T07:32:49.828</Modified>
+      <Modified>2019-03-19T03:42:04.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2019-03-11T07:33:01.307</Modified>
+      <Modified>2019-03-19T03:42:17.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2019-03-11T07:35:03.417</Modified>
+      <Modified>2019-03-19T03:44:25.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2019-03-11T07:35:03.431</Modified>
+      <Modified>2019-03-19T03:44:25.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -612,231 +612,231 @@
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-03-11T07:35:59.857</Modified>
+      <Modified>2019-03-19T03:53:14.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.341</Modified>
+      <Modified>2019-03-19T03:53:38.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.366</Modified>
+      <Modified>2019-03-19T03:53:38.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.400</Modified>
+      <Modified>2019-03-19T03:53:38.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.445</Modified>
+      <Modified>2019-03-19T03:53:39.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.525</Modified>
+      <Modified>2019-03-19T03:53:39.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.567</Modified>
+      <Modified>2019-03-19T03:53:39.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.594</Modified>
+      <Modified>2019-03-19T03:53:39.272</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.621</Modified>
+      <Modified>2019-03-19T03:53:39.343</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.756</Modified>
+      <Modified>2019-03-19T03:53:39.404</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.829</Modified>
+      <Modified>2019-03-19T03:53:39.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.869</Modified>
+      <Modified>2019-03-19T03:53:39.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.897</Modified>
+      <Modified>2019-03-19T03:53:39.538</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.928</Modified>
+      <Modified>2019-03-19T03:53:39.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.973</Modified>
+      <Modified>2019-03-19T03:53:40.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.997</Modified>
+      <Modified>2019-03-19T03:53:40.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.031</Modified>
+      <Modified>2019-03-19T03:53:40.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.063</Modified>
+      <Modified>2019-03-19T03:53:40.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.114</Modified>
+      <Modified>2019-03-19T03:53:40.185</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.158</Modified>
+      <Modified>2019-03-19T03:53:40.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.225</Modified>
+      <Modified>2019-03-19T03:53:40.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.268</Modified>
+      <Modified>2019-03-19T03:53:40.289</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.352</Modified>
+      <Modified>2019-03-19T03:53:40.341</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.389</Modified>
+      <Modified>2019-03-19T03:53:40.385</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.481</Modified>
+      <Modified>2019-03-19T03:53:40.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.514</Modified>
+      <Modified>2019-03-19T03:53:40.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.555</Modified>
+      <Modified>2019-03-19T03:53:40.503</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.600</Modified>
+      <Modified>2019-03-19T03:53:40.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.635</Modified>
+      <Modified>2019-03-19T03:53:40.562</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:21.673</Modified>
+      <Modified>2019-03-19T03:53:40.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.146</Modified>
+      <Modified>2019-03-19T03:53:41.433</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.199</Modified>
+      <Modified>2019-03-19T03:53:41.492</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.235</Modified>
+      <Modified>2019-03-19T03:53:41.541</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.262</Modified>
+      <Modified>2019-03-19T03:53:41.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.294</Modified>
+      <Modified>2019-03-19T03:53:41.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.323</Modified>
+      <Modified>2019-03-19T03:53:41.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.372</Modified>
+      <Modified>2019-03-19T03:53:41.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.425</Modified>
+      <Modified>2019-03-19T03:53:42.029</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.466</Modified>
+      <Modified>2019-03-19T03:53:42.084</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.493</Modified>
+      <Modified>2019-03-19T03:53:42.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.521</Modified>
+      <Modified>2019-03-19T03:53:42.144</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.557</Modified>
+      <Modified>2019-03-19T03:53:42.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2019-03-11T07:34:12.316</Modified>
+      <Modified>2019-03-19T03:43:30.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.586</Modified>
+      <Modified>2019-03-19T03:53:42.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.636</Modified>
+      <Modified>2019-03-19T03:53:42.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.735</Modified>
+      <Modified>2019-03-19T03:53:42.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2019-03-11T07:36:22.985</Modified>
+      <Modified>2019-03-19T03:53:42.829</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.083</Modified>
+      <Modified>2019-03-19T03:53:42.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.218</Modified>
+      <Modified>2019-03-19T03:53:43.042</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.624</Modified>
+      <Modified>2019-03-19T03:53:43.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.668</Modified>
+      <Modified>2019-03-19T03:53:43.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.732</Modified>
+      <Modified>2019-03-19T03:53:43.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.786</Modified>
+      <Modified>2019-03-19T03:53:43.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.909</Modified>
+      <Modified>2019-03-19T03:53:43.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2019-03-11T07:36:23.982</Modified>
+      <Modified>2019-03-19T03:53:43.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2019-03-11T07:36:20.301</Modified>
+      <Modified>2019-03-19T03:53:38.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vapor\OneDrive\Desktop\MixedRealityRCVehicle\App\MixedRealityRCVehicle\bin\x86\Release\Core\MixedRealityRCVehicle.exe">
       <PackagePath>MixedRealityRCVehicle.exe</PackagePath>
-      <Modified>2019-03-11T07:36:29.843</Modified>
+      <Modified>2019-03-19T03:53:51.171</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
