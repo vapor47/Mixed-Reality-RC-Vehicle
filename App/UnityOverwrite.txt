@@ -9,7 +9,7 @@ MixedRealityRCVehicle.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 GeneratedProjects\UWP\Assembly-CSharp-firstpass\project.json: 1D02BC64BAC0D041019673A1C4C51737
 MixedRealityRCVehicle\App.cs: 0AB21F1DF75684B3314BBC465E71A1C0
-MixedRealityRCVehicle\MixedRealityRCVehicle.csproj: 6D22D4C9666BF90EB9C3FC61A52A0FFB
+MixedRealityRCVehicle\MixedRealityRCVehicle.csproj: modified
 MixedRealityRCVehicle\MixedRealityRCVehicle.csproj.user: modified
 MixedRealityRCVehicle\Package.appxmanifest: 0F94B3A54DFB30C51EEC87923E588C62
 MixedRealityRCVehicle\project.json: 1D02BC64BAC0D041019673A1C4C51737

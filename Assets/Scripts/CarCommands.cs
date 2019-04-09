@@ -4,11 +4,13 @@ public class CarCommands : MonoBehaviour
 {
     Vector3 originalPosition;
     Quaternion originalRotation;
+    Rigidbody originalRigidbody;
 
     private void Start()
     {
         originalPosition = this.transform.localPosition;
         originalRotation = this.transform.localRotation;
+        originalRigidbody = this.GetComponent<Rigidbody>();
     }
 
     // Called by GazeGestureManager when the user performs a Select gesture
@@ -36,6 +38,5 @@ public class CarCommands : MonoBehaviour
     {
         this.transform.localPosition = originalPosition;
         this.transform.localRotation = originalRotation;
-        this.GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
 }

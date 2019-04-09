@@ -21,6 +21,9 @@ public class CarController : MonoBehaviour {
     public int boostForce;
     private int jumpsLeft;
 
+    private float motor;
+    private float steering;
+
     Rigidbody rb;
 
     // finds the corresponding visual wheel
@@ -45,12 +48,21 @@ public class CarController : MonoBehaviour {
     public void Start()
     {
         rb = this.GetComponent<Rigidbody>();
+        DropCar(10);
+    }
+
+    public void Update()
+    {
+        motor = maxSpeed * (Input.GetAxis("Accelerate") - Input.GetAxis("Decelerate"));
+        steering = maxSteeringAngle * Input.GetAxis("LeftJoystickX");
     }
 
     public void FixedUpdate()
     {
-        float speed = maxSpeed * (Input.GetAxis("Accelerate") - Input.GetAxis("Decelerate"));
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        if (Input.GetButton("Boost"))
+        {
+            Boost();
+        }
 
         if (Input.GetButtonDown("Jump"))
         {
@@ -111,10 +123,11 @@ public class CarController : MonoBehaviour {
         */
 
 
-        rb.velocity += transform.forward * speed *Time.fixedDeltaTime;
-
-        Yaw();
-        /*
+        //rb.velocity += transform.forward * motor * Time.fixedDeltaTime;
+        //Yaw();
+        //Debug.Log(motor + " " + rb.velocity.sqrMagnitude);
+        Debug.Log(steering);
+        
         foreach (AxleInfo axleInfo in axleInfos)
         {
             if (axleInfo.steering)
@@ -132,7 +145,6 @@ public class CarController : MonoBehaviour {
             ApplyLocalPositionToVisuals(axleInfo.leftWheel);
             ApplyLocalPositionToVisuals(axleInfo.rightWheel);
         }
-        */
     }
 
     private void Jump()
@@ -182,23 +194,13 @@ public class CarController : MonoBehaviour {
             if (!(axleInfo.leftWheel.isGrounded && axleInfo.rightWheel.isGrounded))
                 return false;
         }
-        Debug.Log("Grounded");
+        //Debug.Log("Grounded");
         return true;
     }
-}
 
-/*
- * Car notes
- * 
- * research wheel collider physical properties
- * 
- * velocity
- * acceleration
- * momentum?
- * steering
- * 
- * connect wheels
- * 
- * 
- * spatial mapping
- */
+    IEnumerator DropCar(float time)
+    {
+        yield return new WaitForSeconds(time);
+        GameObject.Find("Car").SendMessage("EnableGravity");
+    }
+}
