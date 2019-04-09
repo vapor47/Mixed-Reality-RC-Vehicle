@@ -48,7 +48,7 @@ public class CarController : MonoBehaviour {
     public void Start()
     {
         rb = this.GetComponent<Rigidbody>();
-        DropCar(10);
+        DropCar(5);
     }
 
     public void Update()
@@ -201,6 +201,5 @@ public class CarController : MonoBehaviour {
     IEnumerator DropCar(float time)
     {
         yield return new WaitForSeconds(time);
-        GameObject.Find("Car").SendMessage("EnableGravity");
     }
 }
